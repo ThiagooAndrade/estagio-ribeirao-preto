@@ -1,0 +1,24 @@
+a: razao 2
+resposta = 9
+
+b: 
+resposta = 128
+
+
+c: 
+resposta = 48
+
+d: 
+(n elevado a 2) e depois n + 2 para o proximo elemento
+2 elevado a 2 = 4
+4 elevado a 2 = 16
+6 elevado a 2 = 36
+8 elevado a 2 = 64
+10 elevado a 2 = 100
+resposta = 100
+
+e: sequencia fibonnaci
+resposta = 13
+
+f: 
+resposta = 20

@@ -1,0 +1,66 @@
+ligaria o interruptor 1 por alguns minutos e o desligaria,
+após isso ligaria o interruptor 2 e iria até a sala 1
+    1 situacao{
+        a sala 1 está apagada e fria logo sei que o interruptor 3 a controla entao volto e ligo o interruptor 3 por que ele pode ter esfriado, e desligo o interruptor 2 e vou a sala 2{
+            1.1 situacao {
+                a sala 2 está apagada e quente logo sei que o interruptor 2 a controla e o interruptor 1 controla a sala 3
+
+                resultado: 
+                interruptor 3 controla sala 1
+                interruptor 2 controla sala 2
+                interruptor 1 controla sala 3
+            }
+            1.2 situacao {
+                a sala 2 está ligada logo que sei que o interruptor 1 a controla eo interruptor 2 controla a sala 3
+
+                resultado: 
+                interruptor 3 controla sala 1
+                interruptor 2 controla sala 3
+                interruptor 1 controla sala 2
+            }
+        }
+    }
+    2 situacao {
+        a sala 1 está apagada e quente logo sei que o interruptor 1 a controla entao volto e vou a sala 2 {
+            1.1 situacao {
+                a sala 2 está ligada então o interruptor 2 a controla e o interruptor 3 controla a sala 3
+
+                resultado:
+                interruptor 3 controla sala 3
+                interruptor 2 controla sala 2
+                interruptor 1 controla sala 1
+            }
+
+            1.2 situacao {
+                 sala 2 está apagada então o interruptor 3 a controla e o interruptor 2 controla a sala 3
+
+                resultado:
+                interruptor 3 controla sala 2
+                interruptor 2 controla sala 3
+                interruptor 1 controla sala 1
+            }
+        }
+    }
+    3 situacao {
+        a sala 1 está ligada logo sei que o interruptor 2 a controla então volto e ligo o interruptor 3 e vou até a sala 2{
+            1.1 situacao {
+                a lampada da sala 2 está ligada logo que sei que o interruptor 3 a controla e que o interruptor 1 controla a sala 3
+
+                resultado:
+                interruptor 3 controla sala 2
+                interruptor 2 controla sala 1
+                interruptor 1 controla sala 3
+            }
+            1.2 situacao {
+                a lampada da sala 2 está apagada logo que sei que o interruptor 1 a controla e que o interruptor 3 controla a sala 3
+
+                resultado:
+                interruptor 3 controla sala 3
+                interruptor 2 controla sala 1
+                interruptor 1 controla sala 2
+            }
+        }
+        
+    }
+
+    
